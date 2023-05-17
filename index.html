@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lag= "es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&display=swap" rel="stylesheet">
+	<title>Changelle One G5 - Ecriptador </title>
+</head>
+<body>
+	<header>
+		<h1> <img class="logo" src="imagenes/logo.png" alt="Logo de Alura"></h1>
+        <br>
+        <h3><a href="https://www.xataka.com/basics/encriptar-que-sirve-como-cifrar-tus-archivos"target="_blank"><img src="imagenes/datae.jpg" alt="imagen encriptado"></a></h3>
+	</header>
+
+	<main>
+		<section>
+			<textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui" autofocus required></textarea>			
+
+			<h6 class="informacion"> → Solo utilizar letras minúsculas y sin acentos </h6>
+
+		<div class="botones">
+          	<button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+			<button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+        		</section>
+
+	<section>
+	<textarea class="mensaje" cols="20" rows="10">  </textarea> 
+	<div>
+	<button class="copiar" onclick="copy()">Copiar </button>
+	</div>
+	</section>
+</main>
+<footer class="footer">
+    <br>
+    <br>
+	<p> © Diego S. Lugo - G5.2023
+    </p>
+    <section class="redes">
+    <a href="https://github.com/Chagosama" target="_blank"><img src="imagenes/github.JPG" alt="logo de github"></a>
+    <a href="https://www.linkedin.com/in/diego-lugo-b19a4250/" target="_blank"><img src="imagenes/linkedin.JPG" alt="logo de linkedin"></a>
+    </section>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
